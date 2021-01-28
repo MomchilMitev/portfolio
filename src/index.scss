@@ -1,0 +1,44 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Public+Sans&display=swap");
+
+// Colors
+:root {
+  --slightlyDesaturatedCyan: #5fb4a2;
+  --darkBlue: #203a4c;
+  --grayishDarkBlue: #33323d;
+  --bgColor: #fafafa;
+  --lightGray: #eaeaeb;
+  --red: #f43030;
+  --headingsFont: "Ibarra Real Nova", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: var(--headingsFont);
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+}
+
+h2 {
+  font-family: var(--headingsFont);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+}
+
+h3 {
+  font-family: var(--headingsFont);
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.29px;
+}

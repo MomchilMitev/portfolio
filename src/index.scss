@@ -1,6 +1,6 @@
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Public+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Public+Sans&display=swap');
 
 // Colors
 :root {
@@ -10,13 +10,19 @@
   --bgColor: #fafafa;
   --lightGray: #eaeaeb;
   --red: #f43030;
-  --headingsFont: "Ibarra Real Nova", serif;
+  --headingsFont: 'Ibarra Real Nova', serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--grayishDarkBlue);
 }
 
 h1 {
@@ -30,6 +36,7 @@ h1 {
 h2 {
   font-family: var(--headingsFont);
   font-weight: bold;
+  font-style: normal;
   font-size: 40px;
   line-height: 42px;
   letter-spacing: -0.36px;
@@ -41,4 +48,18 @@ h3 {
   font-size: 32px;
   line-height: 36px;
   letter-spacing: -0.29px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 17px 36px;
+  border: 1px solid var(--grayishDarkBlue);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--grayishDarkBlue);
 }

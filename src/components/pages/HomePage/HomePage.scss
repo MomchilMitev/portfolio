@@ -1,0 +1,57 @@
+.hero {
+  &__title {
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  &__btn {
+    position: relative;
+    left: 48px;
+    display: inline-block;
+    width: 152px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    background-color: #203a4c;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -48px;
+      top: 0;
+      display: inline-block;
+      height: 48px;
+      width: 48px;
+      background: #000 url('../../../assets/icons/down-arrows.svg') no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.about {
+  &__img {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 311px;
+  }
+
+  &__content {
+    padding-bottom: 51px;
+    border-top: 1px solid rgba($color: #000000, $alpha: 0.2);
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.2);
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+}

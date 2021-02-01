@@ -5,6 +5,7 @@ import heroImgTablet from '../../../assets/images/homepage-hero-t.jpg';
 import heroImgDesktop from '../../../assets/images/homepage-hero-d.jpg';
 import laptopImage from '../../../assets/images/about-img.jpg';
 import Contact from '../../Contact/Contact';
+import Footer from '../../Footer/Footer';
 
 const HomePage = () => {
   return (
@@ -43,6 +44,7 @@ const HomePage = () => {
         </article>
       </section>
       <Contact />
+      <Footer />
     </>
   );
 };

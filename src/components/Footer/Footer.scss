@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--grayishDarkBlue);
+  text-align: center;
+  padding: 56px 0;
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 5px 0;
+  }
+
+  &__socials {
+    margin-top: 10px;
+  }
+
+  &__social {
+    display: inline-block;
+
+    &:first-child {
+      margin-right: 10px;
+    }
+  }
+}

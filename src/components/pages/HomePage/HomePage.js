@@ -4,6 +4,7 @@ import heroImgMobile from '../../../assets/images/homepage-hero-m.jpg';
 import heroImgTablet from '../../../assets/images/homepage-hero-t.jpg';
 import heroImgDesktop from '../../../assets/images/homepage-hero-d.jpg';
 import laptopImage from '../../../assets/images/about-img.jpg';
+import Contact from '../../Contact/Contact';
 
 const HomePage = () => {
   return (
@@ -41,6 +42,7 @@ const HomePage = () => {
           </Link>
         </article>
       </section>
+      <Contact />
     </>
   );
 };

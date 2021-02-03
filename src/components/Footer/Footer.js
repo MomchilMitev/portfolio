@@ -28,7 +28,13 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer__socials">
-        <Link className="footer__social" to="">
+        <Link
+          className="footer__social"
+          to={{
+            pathname: 'https://github.com/momchilmitev',
+          }}
+          target="_blank"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24">
             <path
               fill="#fff"
@@ -36,7 +42,13 @@ const Footer = () => {
             />
           </svg>
         </Link>
-        <Link className="footer__social" to="">
+        <Link
+          className="footer__social"
+          to={{
+            pathname: 'https://www.linkedin.com/in/momchil-mitev-643b78181/',
+          }}
+          target="_blank"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
             <path
               fill="#fff"

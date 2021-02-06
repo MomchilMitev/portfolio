@@ -1,3 +1,45 @@
 .form {
   margin-bottom: 80px;
+
+  &__label,
+  &__input,
+  &__textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: var(--grayishDarkBlue);
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    background-color: #e6e6e7;
+    padding: 9px 0 9px 16px;
+    margin-bottom: 24px;
+  }
+
+  &__textarea {
+    background-color: #e6e6e7;
+    height: 96px;
+    padding-top: 9px;
+    padding-left: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+::placeholder {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: #a7a7ab;
 }

@@ -2,25 +2,25 @@ import './Form.scss';
 
 const Form = () => {
   return (
-    <section className="contact">
-      <h2 className="contact__title">Contact me</h2>
-      <form className="contact__form">
-        <label htmlFor="name" className="contact__label">
+    <section className="form">
+      <h2 className="form__title">Contact me</h2>
+      <form className="form__form">
+        <label htmlFor="name" className="form__label">
           Name
         </label>
-        <input type="text" id="name" className="contact__input" />
-        <label htmlFor="email" className="contact__label">
+        <input type="text" id="name" className="form__input" />
+        <label htmlFor="email" className="form__label">
           Email
         </label>
-        <input type="text" id="email" className="contact__input" />
-        <label htmlFor="message" className="contact__label">
+        <input type="text" id="email" className="form__input" />
+        <label htmlFor="message" className="form__label">
           Message
         </label>
         <textarea
           id="message"
           cols="30"
           rows="10"
-          className="contact__textarea"
+          className="form__textarea"
         ></textarea>
         <button className="btn btn--dark">send message</button>
       </form>

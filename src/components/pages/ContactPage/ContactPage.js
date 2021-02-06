@@ -1,5 +1,6 @@
 import './ContactPage.scss';
 import { Link } from 'react-router-dom';
+import Form from '../../Form/Form';
 
 const ContactPage = () => {
   return (
@@ -46,6 +47,7 @@ const ContactPage = () => {
           </Link>
         </section>
       </section>
+      <Form />
     </>
   );
 };

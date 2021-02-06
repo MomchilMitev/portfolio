@@ -65,4 +65,9 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--grayishDarkBlue);
+
+  &--dark {
+    background: var(--grayishDarkBlue);
+    color: #fff;
+  }
 }

@@ -9,6 +9,10 @@
     border: none;
     outline: none;
     box-sizing: border-box;
+
+    &:focus {
+      border: 1px solid var(--grayishDarkBlue);
+    }
   }
 
   &__label {
@@ -33,6 +37,10 @@
     padding-left: 16px;
     margin-bottom: 24px;
   }
+}
+
+.error {
+  border: 1px solid var(--red);
 }
 
 ::placeholder {

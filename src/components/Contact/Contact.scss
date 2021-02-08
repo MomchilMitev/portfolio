@@ -4,3 +4,23 @@
   text-align: center;
   padding: 0 10px;
 }
+
+@media (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+    padding: 0;
+
+    &__title {
+      width: 50%;
+    }
+
+    &__line {
+      width: 15%;
+      border: 1px solid var(--grayishDarkBlue);
+      opacity: 0.15;
+    }
+  }
+}

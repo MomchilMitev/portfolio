@@ -5,6 +5,11 @@
     margin-bottom: 32px;
   }
 
+  & img {
+    display: block;
+    width: 100%;
+  }
+
   &__btn {
     position: relative;
     left: 48px;
@@ -42,7 +47,7 @@
   &__img {
     margin-top: 80px;
     margin-bottom: 30px;
-    width: 311px;
+    width: 100%;
   }
 
   &__content {
@@ -53,5 +58,46 @@
 
   &__text {
     margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    position: relative;
+
+    &__title {
+      box-sizing: border-box;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 514px;
+      height: 278px;
+      background-color: #fafafa;
+      margin: 0;
+      padding-top: 56px;
+      padding-right: 56px;
+    }
+
+    &__btn {
+      position: absolute;
+      bottom: 0;
+      left: 48px;
+    }
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+
+    &__img {
+      display: block;
+      width: 40%;
+      margin: 0;
+    }
+
+    &__content {
+      width: 50%;
+    }
   }
 }

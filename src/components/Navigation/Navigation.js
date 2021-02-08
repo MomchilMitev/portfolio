@@ -26,7 +26,11 @@ const Navigation = () => {
         />
       </svg>
       <div
-        className={opened ? 'navigation__links' : 'navigation__links--closed'}
+        className={
+          opened
+            ? 'navigation__links'
+            : 'navigation__links navigation__links--closed'
+        }
       >
         <Link className="navigation__link" to="/" onClick={open}>
           home

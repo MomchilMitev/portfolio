@@ -5,15 +5,14 @@ import heroImgTablet from '../../../assets/images/homepage-hero-t.jpg';
 import heroImgDesktop from '../../../assets/images/homepage-hero-d.jpg';
 import laptopImage from '../../../assets/images/about-img.jpg';
 import Contact from '../../Contact/Contact';
-import Footer from '../../Footer/Footer';
 
 const HomePage = () => {
   return (
     <>
       <section className="hero">
         <picture alt="hero" className="hero__img">
-          <source srcSet={heroImgMobile} />
-          <source srcSet={heroImgTablet} media="(min-width: 768px)" />
+          <source srcSet={heroImgMobile} media="(max-width: 766px)" />
+          <source srcSet={heroImgTablet} media="(min-width: 767px)" />
           <source srcSet={heroImgDesktop} media="(min-width: 990px)" />
           <img src="images/home/homepage-hero-m.jpg" alt="hero" />
         </picture>
@@ -44,7 +43,6 @@ const HomePage = () => {
         </article>
       </section>
       <Contact />
-      <Footer />
     </>
   );
 };

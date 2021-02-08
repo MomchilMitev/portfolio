@@ -7,6 +7,7 @@ const Contact = () => {
       <h2 className="contact__title">
         Interested in doing a project together?
       </h2>
+      <div className="contact__line"></div>
       <Link to="/contact" className="btn">
         contact me
       </Link>

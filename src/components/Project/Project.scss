@@ -13,3 +13,30 @@
     padding-bottom: 24px;
   }
 }
+
+@media (min-width: 768px) {
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+
+    &:first-of-type {
+      margin-top: 94px;
+    }
+
+    &:nth-child(odd) {
+      flex-direction: row-reverse;
+    }
+
+    &__thumbnail {
+      width: 45%;
+      margin: 0;
+    }
+
+    &__info {
+      width: 45%;
+      padding-bottom: 50px;
+    }
+  }
+}

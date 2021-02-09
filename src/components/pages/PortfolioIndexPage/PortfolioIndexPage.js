@@ -12,10 +12,10 @@ const PortfolioIndexPage = () => {
   };
 
   return (
-    <div>
+    <>
       {renderContent()}
       <Contact />
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import './Navigation.scss';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import hamburgerIcon from '../../assets/icons/hamburger.svg';
 import closeIcon from '../../assets/icons/close.svg';
 
@@ -32,15 +32,31 @@ const Navigation = () => {
             : 'navigation__links navigation__links--closed'
         }
       >
-        <Link className="navigation__link" to="/" onClick={open}>
+        <NavLink
+          activeStyle={{ color: 'var(--slightlyDesaturatedCyan)' }}
+          className="navigation__link"
+          exact
+          to="/"
+          onClick={open}
+        >
           home
-        </Link>
-        <Link className="navigation__link" to="/portfolio" onClick={open}>
+        </NavLink>
+        <NavLink
+          activeStyle={{ color: 'var(--slightlyDesaturatedCyan)' }}
+          className="navigation__link"
+          to="/portfolio"
+          onClick={open}
+        >
           portfolio
-        </Link>
-        <Link className="navigation__link" to="contact" onClick={open}>
+        </NavLink>
+        <NavLink
+          activeStyle={{ color: 'var(--slightlyDesaturatedCyan)' }}
+          className="navigation__link"
+          to="contact"
+          onClick={open}
+        >
           contact
-        </Link>
+        </NavLink>
       </div>
       <img
         className="navigation__icon"

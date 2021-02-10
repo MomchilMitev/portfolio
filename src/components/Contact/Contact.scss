@@ -29,12 +29,12 @@
 @media (min-width: 992px) {
   .contact {
     &__title {
-      width: 40%;
+      width: 30%;
       text-align: left;
     }
 
     &__line {
-      width: 40%;
+      width: 50%;
       border: 1px solid var(--grayishDarkBlue);
       opacity: 0.15;
     }

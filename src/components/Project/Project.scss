@@ -40,3 +40,37 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .project {
+    max-width: 1015px;
+
+    &:nth-child(even) {
+      margin-right: auto;
+    }
+
+    &:nth-child(odd) {
+      margin-left: auto;
+    }
+
+    &__thumbnail {
+      width: 55%;
+      margin: 0;
+    }
+
+    &__info {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      width: 35%;
+      padding-bottom: 0;
+    }
+
+    &__name {
+      margin: 0;
+    }
+  }
+}

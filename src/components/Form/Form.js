@@ -65,7 +65,7 @@ const Form = () => {
 
   return (
     <section className="form">
-      <h2 className="form__title">Contact me</h2>
+      <h2 className="form__title">Contact Me</h2>
       <form className="form__form" onSubmit={onSubmit}>
         <label htmlFor="name" className="form__label">
           Name

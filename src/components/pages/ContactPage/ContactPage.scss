@@ -12,3 +12,18 @@
     }
   }
 }
+
+@media (min-width: 992px) {
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 94px;
+
+    &__divider {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -50,7 +50,8 @@
 
     &__links {
       flex-direction: row;
-      margin-left: -120px;
+      margin-right: auto;
+      margin-left: 48px;
     }
 
     &__link {
@@ -59,6 +60,14 @@
 
     &__socials {
       margin: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    &__container {
+      max-width: 1100px;
     }
   }
 }

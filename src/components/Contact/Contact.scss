@@ -15,10 +15,26 @@
 
     &__title {
       width: 50%;
+      text-align: left;
     }
 
     &__line {
       width: 15%;
+      border: 1px solid var(--grayishDarkBlue);
+      opacity: 0.15;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .contact {
+    &__title {
+      width: 40%;
+      text-align: left;
+    }
+
+    &__line {
+      width: 40%;
       border: 1px solid var(--grayishDarkBlue);
       opacity: 0.15;
     }

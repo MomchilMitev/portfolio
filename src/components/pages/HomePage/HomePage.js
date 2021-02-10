@@ -12,8 +12,8 @@ const HomePage = () => {
       <section className="hero">
         <picture alt="hero" className="hero__img">
           <source srcSet={heroImgMobile} media="(max-width: 766px)" />
-          <source srcSet={heroImgTablet} media="(min-width: 767px)" />
-          <source srcSet={heroImgDesktop} media="(min-width: 990px)" />
+          <source srcSet={heroImgTablet} media="(max-width: 991px)" />
+          <source srcSet={heroImgDesktop} media="(min-width: 992px)" />
           <img src="images/home/homepage-hero-m.jpg" alt="hero" />
         </picture>
         <h2 className="hero__title">

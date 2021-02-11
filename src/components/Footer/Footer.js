@@ -21,7 +21,7 @@ const Footer = () => {
           <Link className="footer__link" to="/">
             home
           </Link>
-          <Link className="footer__link" to="/portfolio">
+          <Link className="footer__link" to="/projects">
             portfolio
           </Link>
           <Link className="footer__link" to="/contact">

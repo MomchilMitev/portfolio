@@ -9,13 +9,13 @@ import Footer from '../Footer/Footer';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.REACT_APP_BASE_URL}>
         <div className="container">
           <Navigation />
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/portfolio" component={PortfolioIndexPage} />
-            <Route path="/contact" component={ContactPage} />
+            <Route exact path="/projects" component={PortfolioIndexPage} />
+            <Route exact path="/contact" component={ContactPage} />
           </Switch>
         </div>
         <Footer />

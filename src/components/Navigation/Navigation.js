@@ -44,7 +44,7 @@ const Navigation = () => {
         <NavLink
           activeStyle={{ color: 'var(--slightlyDesaturatedCyan)' }}
           className="navigation__link"
-          to="/portfolio"
+          to="/projects"
           onClick={open}
         >
           portfolio

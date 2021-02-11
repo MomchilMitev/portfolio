@@ -1,5 +1,4 @@
 import './Project.scss';
-import { Link } from 'react-router-dom';
 
 const Project = ({ project }) => {
   return (
@@ -12,9 +11,9 @@ const Project = ({ project }) => {
       <section className="project__info">
         <h2 className="project__name">{project.name}</h2>
         <p className="project__description">{project.description}</p>
-        <Link className="btn" to={{ pathname: project.url }} target="_blank">
+        <a className="btn" href={project.url} target="_blank" rel="noreferrer">
           visit website
-        </Link>
+        </a>
       </section>
     </section>
   );

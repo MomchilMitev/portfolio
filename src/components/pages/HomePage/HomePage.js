@@ -37,7 +37,7 @@ const HomePage = () => {
             out in nature going for a walk with my family. I’d love you to check
             out my work.
           </p>
-          <Link to="/portfolio" className="btn">
+          <Link to="/projects" className="btn">
             go to portfolio
           </Link>
         </article>

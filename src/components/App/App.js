@@ -5,6 +5,7 @@ import PortfolioIndexPage from '../pages/PortfolioIndexPage/PortfolioIndexPage';
 import ContactPage from '../pages/ContactPage/ContactPage';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer/Footer';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Router basename={process.env.REACT_APP_BASE_URL}>
         <div className="container">
           <Navigation />
+          <ScrollToTop />
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/projects" component={PortfolioIndexPage} />

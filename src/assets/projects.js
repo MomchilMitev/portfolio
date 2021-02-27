@@ -13,6 +13,13 @@ const projects = [
     url: 'https://momchilmitev.github.io/ip-tracker/',
     thumbnail: 'images/projects/ipTracker.jpg',
   },
+  {
+    name: 'Clock App',
+    description:
+      'In this challenge, I used external APIs together to create a clock app.',
+    url: 'https://momchilmitev.github.io/clock-app/',
+    thumbnail: 'images/projects/clock-app.jpg',
+  },
 ];
 
 export default projects;
